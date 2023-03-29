@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --force"
+    "dev": "vite --force",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",

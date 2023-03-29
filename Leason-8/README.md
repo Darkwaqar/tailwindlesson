@@ -1,16 +1,12 @@
 # This is Lesson on of Tailwind
 
-## 01: Setting up tailwind CSS 
+## 08: Optimizing for Production
 
-### Create Full tailwind.config.js
-1. use command `pxpx tailwindcss init tailwind-full.config.js --full` -full is for creating the full config file
-2. extend the theme obejct with a custom color and add few varient 
-`brand: {
-          light: "#3fbaeb",
-          DEFAULT: "#0fa9e6",
-          dark: "#0c87b8",
-        }`
-3. intelesense shall pick up the new class as brand we can use class like `bg-brand` or `bg-brand-light` or change the text like `text-brand`
+### Step Optimize the css bundle generated
+1. we can see if we use the added the brand and it create all the utilises . we only want to have bg and text.
+2. when ever we add new color all this will create all the utilies so we dont want it. tailwind genrated 
+3. we add a new command in the package.json `"build": "vite build"`
+4. run the build commad 
 
 ## preivew
 ![alt text](preview.png)
