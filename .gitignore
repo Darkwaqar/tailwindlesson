@@ -2,12 +2,22 @@
 
 # dependencies
 /node_modules
+/*/node_modules
 
 # testing
 /coverage
 
 # production
 /build
+/*/build
+
+/Leason-2
+/Leason-3
+/Leason-4
+/Leason-5
+/Leason-6
+/Leason-7
+/Leason-8
 
 # misc
 .DS_Store
