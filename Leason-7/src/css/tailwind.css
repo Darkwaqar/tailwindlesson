@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+/* we have use this here because if we use it bellow utilities will override them */
+/* .btn{
+    @apply inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500
+    uppercase tracking-wider font-semibold text-sm
+    hover:bg-indigo-400 hover:translate-y-0.5 
+    focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 
+    focus:ring-opacity-50 transform
+    active:bg-indigo-500
+    sm:hover:bg-green-500
+    transition text-white
+} */
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply inline-block px-5 py-3 rounded-lg
+        focus:outline-none focus:ring focus:ring-offset-2
+        focus:ring-opacity-50 
+        uppercase tracking-wider font-semibold text-sm
+    }
+    .btn-primary{
+        @apply bg-indigo-500
+        hover:bg-indigo-400  
+        active:bg-indigo-500
+        sm:hover:bg-green-500
+         text-white
+    }
+    .btn-secondary{
+        @apply bg-gray-300
+        hover:bg-gray-200  
+        focus:ring-indigo-500 
+        active:bg-gray-500
+        text-gray-800
+    }
+}
