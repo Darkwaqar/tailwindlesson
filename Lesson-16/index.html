@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./css/tailwind.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Lora:wght@700&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+
+  <body>
+    <div class="min-h-screen bg-gray-50 py-16">
+      <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-6xl lg:px-8">
+        <div class="mx-auto text-base lg:max-w-none">
+          <p
+            class="text-base font-semibold uppercase tracking-wide text-indigo-600"
+          >
+            Fundamentals
+          </p>
+          <h1
+            class="mt-2 font-lora text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Using custom fonts in Tailwind CSS
+          </h1>
+        </div>
+        <div class="mx-auto mt-8 lg:mx-0 lg:max-w-5xl lg:pr-72">
+          <p class="text-lg text-gray-500">
+            Let's look at how to use a custom font with Tailwind CSS! I'll show
+            you how to use a Google webfont, as well as self-hosted fonts, using
+            the
+            <code class="rounded bg-indigo-100 px-1 py-0.5 text-indigo-900"
+              >@font-face</code
+            >
+            CSS at-rule. By the end of this screencast, you'll feel comfortable
+            using any custom font for your next project.
+          </p>
+        </div>
+        <div class="mt-16 lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
+          <div class="max-w-5xl">
+            <h2
+              class="mt-8 font-lora text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl"
+            >
+              Customizing font families
+            </h2>
+            <div class="mt-4 space-y-6 text-gray-500">
+              <p class="text-lg">
+                By default, Tailwind provides three font family utilities: a
+                cross-browser sans-serif stack, a cross-browser serif stack, and
+                a cross-browser monospaced stack. You can change, add, or remove
+                these by editing the
+                <code
+                  class="rounded bg-indigo-100 px-1 py-0.5 italic text-indigo-900"
+                  >theme.fontFamily</code
+                >
+                section of your Tailwind config.
+              </p>
+            </div>
+
+            <div class="mx-auto mt-10 flex text-base lg:max-w-none">
+              <div class="rounded-md shadow">
+                <a
+                  href="https://tailwindcss.com/docs/font-family"
+                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                >
+                  Read our docs
+                </a>
+              </div>
+              <div class="ml-4 rounded-md shadow">
+                <a
+                  href="https://github.com/tailwindlabs/tailwindcss"
+                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="relative mx-auto mt-12 text-base lg:mt-0 lg:max-w-none">
+            <blockquote class="relative rounded-lg bg-white shadow-lg">
+              <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pb-8 sm:pt-10">
+                <img
+                  src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
+                  alt="Workcation"
+                  class="h-8"
+                />
+                <div class="relative mt-8 text-lg font-medium text-gray-700">
+                  <svg
+                    class="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-200"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
+                    />
+                  </svg>
+                  <p class="relative">
+                    I really enjoy using custom fonts in my Tailwind CSS
+                    projects. I feel like this really sets our brand apart, and
+                    gives us a polished look and feel. I prefer to self-host our
+                    fonts and use the
+                    <code
+                      class="rounded bg-indigo-100 px-1 py-0.5 text-indigo-900"
+                      >@font-face</code
+                    >
+                    CSS at-rule, whenever possible.
+                  </p>
+                </div>
+              </div>
+              <cite
+                class="relative flex items-center rounded-b-lg bg-indigo-600 px-6 py-5 not-italic sm:mt-10 sm:items-start sm:py-5 sm:pl-12 sm:pr-10"
+              >
+                <div
+                  class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform"
+                >
+                  <img
+                    class="h-12 w-12 rounded-full bg-indigo-300 sm:h-20 sm:w-20"
+                    src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                    alt=""
+                  />
+                </div>
+                <span
+                  class="relative ml-4 font-semibold leading-6 text-indigo-300 sm:ml-24 sm:pl-1"
+                >
+                  <p class="font-semibold text-white sm:inline">Emily Selman</p>
+                  <p class="sm:inline">CEO at Workcation</p>
+                </span>
+              </cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

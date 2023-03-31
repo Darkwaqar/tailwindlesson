@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@layer base {
+  h1,
+  h2 {
+    font-family: "Lora, serif";
+  }
+} */
+
+@layer base {
+  @font-face {
+    font-family: "Lora";
+    src: url("/fonts/Lora-Italic-VariableFont_wght.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "DM Mono";
+    src: url("/fonts/DMMono-Medium.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "DM Mono";
+    font-style: italic;
+    src: url("/fonts/DMMono-Italic.ttf") format("ttf");
+  }
+}
