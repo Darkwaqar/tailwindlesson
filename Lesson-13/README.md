@@ -1,6 +1,6 @@
 # This is Lesson on of Tailwind
 
-## 12 Glowing Background grandient Effects
+## 13 youtube thumbnaol with tailwind css
 
 ## preivew
 
