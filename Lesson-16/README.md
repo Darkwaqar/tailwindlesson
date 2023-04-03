@@ -24,7 +24,7 @@
 
 5. we dont want that we want to it more flexible so that we can use it anywhere with tailwind utilites so we extend the theme and font by this code
    `theme: {
-  extend: {
+    extend: {
     fontFamily: {
       lora: "'Lora', serif",
       // dm: "'DM Mono', monospace",
