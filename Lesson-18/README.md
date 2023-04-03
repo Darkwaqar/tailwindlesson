@@ -13,4 +13,4 @@ https://www.figma.com/community/file/1138578364552935586/OnPay-Banking-Dashoard-
 
 ## refrance Image
 
-![alt text](refrance.jpg)
+![alt text](refrance.png)
